@@ -1,0 +1,181 @@
+.container-fluid {
+	margin:0 0 50px 0;
+}
+#main {
+	position:relative;
+	height:100vh;
+	width:100vw;
+	background-image:url('http://cdn.pursuitist.com/wp-content/uploads/2014/09/New-York-Fashion-Week-2014.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+.flex-center {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+h1 {
+	font-size:28pt;
+	color:rgb(255,255,255);
+}
+.slogan {
+	width:100%;
+	height:100%;
+	position:absolute;
+	color:rgb(255,255,255);
+	margin:0;
+}
+section {
+	padding:100px 0 0 0;
+}
+h2 {
+	text-align:center;
+	margin:0 0 50px 0;
+}
+.p-container {
+	margin:0 0 30px 0;
+}
+p {
+	font-family:'Lato', sans-serif;
+	font-size:12pt;
+	line-height:25px;
+}
+.overlay {
+	position:absolute;
+	width:100%;
+	height:400px;
+	background-color:rgba(0,0,0,0.5);
+	opacity:0;
+	-webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+}
+.img-collection div:hover .overlay {
+	opacity:1;
+}
+.img-collection {
+	padding:0 30px;
+}
+.img-collection div {
+	padding:0;
+	position:relative;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	height:400px;
+}
+h3 {
+	position:absolute;
+	width:100%;
+	height:400px;
+	color:rgb(255,255,255);
+	margin:0;
+	text-align:center;
+}
+#collection-1 {
+	background-image:url('http://img.huffingtonpost.com/asset/,scalefit_950_800_noupscale/581060321900002700c2f038.jpeg');
+	background-size:200%;
+}
+#collection-2 {
+	background-image:url('http://img.huffingtonpost.com/asset/,scalefit_950_800_noupscale/581063ec17000025005b9c35.jpeg');
+}
+#collection-3 {
+	background-image:url('http://img.huffingtonpost.com/asset/,scalefit_950_800_noupscale/5810601f180000be00dc432d.jpeg');
+}
+#collection-4 {
+	background-image:url('http://img.huffingtonpost.com/asset/,scalefit_950_800_noupscale/581063e9150000290052fcff.jpeg');
+}
+#collection-5 {
+	background-image:url('http://img.huffingtonpost.com/asset/,scalefit_950_800_noupscale/581063ef150000280052fd00.jpeg');	
+	background-position:bottom center;
+}
+#collection-6 {
+	background-image:url('http://img.huffingtonpost.com/asset/,scalefit_950_800_noupscale/581063ee17000025005b9c36.jpeg');
+}
+
+
+.logo-img {
+	height:200px;
+	background-repeat:no-repeat;
+	background-size:90%;
+	background-position:center center;
+}
+#logo-1 {
+	background-image:url('http://www.lucyandbelle.com/image/data/blog/logo.jpg');
+}
+#logo-2 {
+	background-image:url('https://static1.squarespace.com/static/550f3e85e4b01a34b819e32b/5611684ee4b0e5d9aa379bd0/56116860e4b0b4bcd8d2ec8d/1444014608207/Madewell.jpg');
+}
+#logo-3 {
+	background-image:url('http://agstylefinder.com/wp-content/themes/agjeansquiz-nn/img/ACAG-logo.png');
+}
+#logo-4 {
+	background-image:url('https://blogs.office.com/wp-content/uploads/2016/05/MS-1884-LOGO.jpg');
+}
+#logo-5 {
+	background-image:url('http://logonoid.com/images/elle-logo.jpg');
+}
+#logo-6 {
+	background-image:url('https://upload.wikimedia.org/wikipedia/commons/f/f8/VOGUE_LOGO.svg');
+}
+
+.trend-collection {
+	padding:0 30px;
+}
+.trend-collection div {
+	position:relative;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	height:800px;
+}
+#trend-1 {
+	background-image:url('http://vg-images.condecdn.net/image/EbaXOgvLZEJ/crop/810');
+}
+#trend-2 {
+	background-image:url('http://vg-images.condecdn.net/image/nPG4nEOxOoY/crop/810');
+}
+#trend-3 {
+	background-image:url('http://vg-images.condecdn.net/image/jKv42LpeZZ1/crop/810');
+}
+#trend-4 {
+	background-image:url('http://vg-images.condecdn.net/image/mNWVGK0m3vP/crop/810');
+}
+
+.about {
+	
+}
+.me {
+	width:200px;
+	height:200px;
+	margin:0 auto;
+	border-radius:50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-image:url('https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/13686572_10153804879296964_8428566783377747685_n.jpg?oh=c3495a8ba2deb5dd986224a3fcdc2ed1&oe=588C4852');
+}
+.bio {
+	margin:50px 0 0 0;
+}
+footer {
+	margin:0 auto;
+}
+
+@media screen and (max-width: 991px) {
+	/*.game-collection div:last-of-type {
+		margin:0;
+	}*/
+	#persona p {
+		margin:30px 0 0 0;
+	}
+	.logo-img {
+    	background-size:50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo-img {
+    	background-size:90%;
+    }
+}
