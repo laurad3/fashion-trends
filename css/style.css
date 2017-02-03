@@ -153,7 +153,7 @@ h3 {
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
-	background-image:url('https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/13686572_10153804879296964_8428566783377747685_n.jpg?oh=c3495a8ba2deb5dd986224a3fcdc2ed1&oe=588C4852');
+	background-image:url('http://i.imgur.com/hiLUcBT.jpg');
 }
 .bio {
 	margin:50px 0 0 0;
@@ -163,9 +163,6 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
-	/*.game-collection div:last-of-type {
-		margin:0;
-	}*/
 	#persona p {
 		margin:30px 0 0 0;
 	}
